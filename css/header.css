@@ -1,0 +1,53 @@
+.header{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    width: 100%;
+
+}
+
+.header-info{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color:#EFAE41;
+    cursor: default;
+    color:white ;
+    padding: 15px 40px;
+    border: 2px solid black; /*тимчасово */
+}
+
+.header-info a{
+    color: white;
+}
+.header-nav-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: row;
+    background: #f8be45;
+    padding: 30px 40px;
+
+}
+
+.header-menu-list{
+    display: flex;
+    flex-direction: row;
+}
+
+.header-logo-text{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.header-social_network-list {
+    display: flex;
+    flex-direction: row;
+ 
+}
+
+.header-social_network-list img{
+    width: 32px;
+    height: 32px;
+}

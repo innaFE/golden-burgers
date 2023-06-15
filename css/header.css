@@ -22,7 +22,7 @@
 }
 .header-nav-container{
     display: flex;
-    width: 100%;
+    width: auto;
     justify-content: space-between;
     flex-direction: row;
     background: #f8be45;
@@ -32,7 +32,9 @@
 
 .header-menu-list{
     display: flex;
+    justify-content: space-around;
     flex-direction: row;
+    list-style: none;
 }
 
 .header-logo-text{
